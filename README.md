@@ -8,7 +8,7 @@ This is a simple Dockerfile that installs the latest cx_Oracle over ubunty:lates
  * Installs cx_Oracle module for Python3
  * Creates a `TNS_ADMIN` directory, copies any local files matching `*.ora` files into that directory, and exports the environment variable. 
 
-#### What's the point?
+#### What's the point? 
 This image can then serve as a starting point for anything that connects to a database using cx_Oracle.
 
 #### How to build
